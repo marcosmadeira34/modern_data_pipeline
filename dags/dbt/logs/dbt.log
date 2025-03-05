@@ -1,0 +1,32 @@
+[0m21:12:32.862853 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa93e4022d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa93f04d5b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa93ff64e00>]}
+
+
+============================== 21:12:32.867823 | 672840f0-7e5c-41a7-b532-129308589820 ==============================
+[0m21:12:32.867823 [info ] [MainThread]: Running with dbt=1.9.2
+[0m21:12:32.868675 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/marcosmadeira/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init npl_data', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:12:32.879503 [debug] [MainThread]: Starter project path: /home/marcosmadeira/modern_data_pipeline/venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m21:12:32.884096 [info ] [MainThread]: 
+Your new dbt project "npl_data" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:12:32.885649 [info ] [MainThread]: Setting up your profile.
+[0m21:12:32.887637 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m21:12:32.888738 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": false, "command_wall_clock_time": 0.1181439, "process_in_blocks": "0", "process_kernel_time": 0.172201, "process_mem_max_rss": "88072", "process_out_blocks": "64", "process_user_time": 1.377612}
+[0m21:12:32.889308 [debug] [MainThread]: Command `dbt init` failed at 21:12:32.889163 after 0.12 seconds
+[0m21:12:32.889764 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa93e8be8a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa93e454710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa93e875310>]}
+[0m21:12:32.890265 [debug] [MainThread]: Flushing usage events
+[0m21:12:33.807764 [debug] [MainThread]: An error was encountered while trying to flush usage events
