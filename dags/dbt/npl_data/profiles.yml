@@ -1,0 +1,13 @@
+npl_data:
+    target: dev
+    outputs:
+        dev:
+            type: bigquery
+            method: service-account
+            project: dbt-bigquery-452812-q7
+            dataset: olist_products_dataset
+            threads: 4
+            keyfile: /home/marcosmadeira/modern_data_pipeline/dbt-bigquery-452812-q7-f56d250b3338.json
+            timeout_seconds: 300
+            location: US
+            priority: interactive

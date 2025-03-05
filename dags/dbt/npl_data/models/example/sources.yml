@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: dbt-bigquery-452812-q7  # O nome da fonte deve ser o do projeto no BigQuery
+    schema: dbtconjuntodedados  # O schema correto que vimos na query
+    tables:
+      - name: olist_products_dataset  # O nome exato da tabela

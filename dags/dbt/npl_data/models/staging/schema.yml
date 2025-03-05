@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: stage_olist_products_seller
+    description: "A starter dbt model"
+    columns:
+      - name: product_id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_products
+    description: "Tabela de Stage para Normalizar Nomes de Categorias"
+    columns:
+      - name: product_id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
